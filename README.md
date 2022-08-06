@@ -7,10 +7,6 @@
 1. Apresentação
 2. Preparação do ambiente de trabalho local
 3. Estrutura bácisa do HTML
-4. Tags HTML mais comuns
-   > Links úteis:
-   https://developer.mozilla.org/es/docs/Web/HTML
-   https://www.w3schools.com/html/
 
 ---
 
@@ -30,7 +26,7 @@
 
 Crie a pasta `pyxintel-htmlcssjs` na sua área de trabalho para as aulas do curso.
    
-Abra um terminal na pasta criada execute os seguintes comando:
+Abra um terminal na pasta criada e execute os seguintes comando:
 
 ```shell
 git clone -b class-1 https://github.com/pyxintel/course-it-frontend-htmlcssjs.git class-1
@@ -55,4 +51,12 @@ Abra outro terminal no VSCode e execute:
 ```shell
 npm run start:exe
 ```
+
+---
+
+### Links úteis
+
+https://developer.mozilla.org/es/docs/Web/HTML
+https://www.w3schools.com/html/
+
 ---
