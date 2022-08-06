@@ -26,7 +26,7 @@
 3. [Git](https://git-scm.com/) - Controle de versão
 4. [Google Chrome](https://www.google.com/intl/es/chrome/) - Navegador
 
-#### Baixar e instalar o código fonte do curso
+#### Baixar o código fonte do curso
 
 Crie a pasta `pyxintel-htmlcssjs` na sua área de trabalho para as aulas do curso.
    
@@ -34,8 +34,6 @@ Abra um terminal na pasta criada execute os seguintes comando:
 
 ```shell
 git clone -b class-1 https://github.com/pyxintel/course-it-frontend-htmlcssjs.git class-1
-cd course-it-frontend-htmlcssjs
-npm install
 code .
 ```
 
@@ -44,6 +42,8 @@ code .
 Abra um terminal de dentro do VSCode, no menu `Terminal`, e execute o comando abaixo:
 
 ```shell
+cd class-1
+npm install
 npm run start
 ```
 Abra no link `http://localhost:3000` no Google Chrome.
