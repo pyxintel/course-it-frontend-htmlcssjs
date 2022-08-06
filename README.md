@@ -27,11 +27,13 @@
 4. [Google Chrome](https://www.google.com/intl/es/chrome/) - Navegador
 
 #### Baixar e instalar o código fonte do curso
+
+Crie a pasta `pyxintel-htmlcssjs` na sua área de trabalho para as aulas do curso.
    
-Com o Git instalado, abra o terminal de seu S.O. e, na pasta aonde deseja baixar o projeto, execute os seguintes comando:
+Abra um terminal na pasta criada execute os seguintes comando:
 
 ```shell
-git clone -b class-1 https://github.com/pyxintel/course-it-frontend-htmlcssjs.git
+git clone -b class-1 https://github.com/pyxintel/course-it-frontend-htmlcssjs.git class-1
 cd course-it-frontend-htmlcssjs
 npm install
 code .
