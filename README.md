@@ -10,6 +10,11 @@
 
 1. Imagem, navegação e formulário
 
+## Aula 3
+
+1. Introdução ao CSS
+2. CSS Inline
+
 ---
 
 ### Preparação do ambiente de trabalho local
