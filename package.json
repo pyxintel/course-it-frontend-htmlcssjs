@@ -12,7 +12,7 @@
   "scripts": {
     "start": "http-server class2/src -p 3000",
     "start:exe": "http-server class2/example -p 3001",
-    "next:class": "git fetch && git checkout class3 && npm i"
+    "next:class": "git stash && git fetch && git checkout class3 && git stash pop && npm i"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
