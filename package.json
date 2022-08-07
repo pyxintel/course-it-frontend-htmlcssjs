@@ -1,0 +1,19 @@
+{
+  "name": "course-it-frontend-htmlcssjs",
+  "version": "1.0.0",
+  "description": "Frontend development course: HTML/CSS/JS",
+  "main": "index.js",
+  "author": "Adyb Fadel <adyb.fadel@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyxintel/course-it-frontend-htmlcssjs"
+  },
+  "scripts": {
+    "start": "http-server class1/src -p 3000",
+    "start:exe": "http-server class1/example -p 3001"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
