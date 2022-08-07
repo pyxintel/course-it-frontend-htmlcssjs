@@ -52,6 +52,14 @@ Abra outro terminal no VSCode e execute:
 npm run start:exe
 ```
 
+### Ir para a próxima Aula
+
+Pare a execução da aplicação (a de exemplo também, se estiver em execução) pressionando `ctrl + c` no terminal e execute:
+
+```shell
+npm run next:class
+```
+
 ---
 
 ### Links úteis
