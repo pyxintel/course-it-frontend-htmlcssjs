@@ -2,11 +2,13 @@
 
 ## Aula 1
 
-### Conteúdo
-
 1. Apresentação
 2. Preparação do ambiente de trabalho local
 3. Estrutura bácisa do HTML
+
+## Aula 2
+
+1. Imagem, navegação e formulário
 
 ---
 
@@ -50,6 +52,14 @@ Abra outro terminal no VSCode e execute:
 
 ```shell
 npm run start:exe
+```
+
+#### Ir para a próxima Aula
+
+Abra outro terminal no VSCode e execute:
+
+```shell
+npm run next:class
 ```
 
 ---

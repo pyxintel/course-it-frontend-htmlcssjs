@@ -15,7 +15,9 @@
     <nav>
       <ul>
         <li>Cursos</li>
-        <li>Sobre nós</li>
+        <li>
+          <a href="about.html">Sobre nós</a>
+        </li>
         <li>Fale conosco</li>
       </ul>
     </nav>
@@ -23,15 +25,19 @@
   <main>
     <section>
       <h2>Aprenda a criar sites com nossos cursos de introdução à programação web.</h2>
-      <article>
-        <h3>HTML</h3>
-      </article>
-      <article>
-        <h3>CSS</h3>
-      </article>
-      <article>
-        <h3>Javascript</h3>
-      </article>
+      <table>
+        <tr>
+          <td>
+            <img src="images/logo-html.png" alt="HTML" height="60">
+          </td>
+          <td>
+            <img src="images/logo-css.png" alt="CSS" height="60">
+          </td>
+          <td>
+            <img src="images/logo-js.png" alt="Javascript" height="60">
+          </td>
+        </tr>
+      </table>
     </section>
     <section>
       <h2>Opiniões de nossos alunos</h2>
@@ -47,6 +53,18 @@
     </section>
     <section>
       <h2>Deseja mais informações? Entre em contato conosco</h2>
+      <form action="success.html" method="get">
+        <label for="input-name">Nome:</label><br>
+        <input type="text" name="name" id="input-name">
+        <br>
+        <label for="input-email">E-mail:</label><br>
+        <input type="email" name="email" id="input-email">
+        <br>
+        <label for="input-message">Mensagem:</label><br>
+        <textarea name="message" id="input-message" cols="40" rows="10"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
   <footer>
