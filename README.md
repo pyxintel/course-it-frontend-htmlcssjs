@@ -1,19 +1,23 @@
 # Introdução à Programação Web
 
-## Aula 1
+## Aula 1 - HTML
 
 1. Apresentação
 2. Preparação do ambiente de trabalho local
 3. Estrutura bácisa do HTML
 
-## Aula 2
+## Aula 2 - HTML
 
 1. Imagem, navegação e formulário
 
-## Aula 3
+## Aula 3 - CSS
 
 1. Introdução ao CSS
 2. CSS Inline
+   
+## Aula 4 - CSS
+
+1. Tag STYLE
 
 ---
 
