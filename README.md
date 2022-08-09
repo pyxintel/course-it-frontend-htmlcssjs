@@ -13,11 +13,15 @@
 ## Aula 3 - CSS
 
 1. Introdução ao CSS
-2. CSS Inline
+2. CSS Inline - style attribute
    
-## Aula 4 - CSS
+## Aula 4 - CSS Internal
 
-1. Tag STYLE
+1. CSS internal - <style\> element
+   
+## Aula 5 - CSS External
+
+1. CSS external - <link\> element
 
 ---
 
