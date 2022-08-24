@@ -22,6 +22,12 @@
 ## Aula 5 - CSS External
 
 1. CSS external - <link\> element
+   
+## Aula 6
+
+1. Background image (CSS)
+2. Same page anchor (HTML)
+3. Positioning (CSS)
 
 ---
 
