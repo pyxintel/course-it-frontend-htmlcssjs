@@ -7,48 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academia Pyxintel</title>
   <script src="js/live.js"></script>
-  <style>
-    body {
-      margin: 0;
-    }    
-    a {
-      color: white;
-    }
-    .header {
-      background-color: #2f4b68; 
-      color: white; 
-      padding: 1em 1.5em;
-    }
-    .header__title {
-      margin: 0; 
-      margin-bottom: .5em; 
-      text-align: center;
-    }
-    .nav {
-      text-align: center;
-    }
-    .nav__list {
-      margin: 0;
-      padding: 0;
-    }
-    .nav__item {
-      display: inline;
-      margin-right: 1em;
-    }
-    .main {
-      max-width: 940px; 
-      margin: 0 auto 1em;
-      padding: 0 1em;
-    }
-    .footer {
-      background-color: #2f4b68; 
-      color: white; 
-      padding: .1em 1em;
-    }
-    .copyright {
-      font-size: .8em;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -70,9 +29,9 @@
   </header>
   <main class="main">
     <h1>Introdução à Programação Web</h1>    
-    <section>
+    <section class="courses">
       <h2>Aprenda a criar sites com nossos cursos de introdução à programação web.</h2>
-      <table>
+      <table class="courses__table">
         <tr>
           <td>
             <img src="images/logo-html.png" alt="HTML" height="60">
@@ -86,16 +45,18 @@
         </tr>
       </table>
     </section>
-    <section>
+    <section class="reviews">
       <h2>Opiniões de nossos alunos</h2>
-      <article>
-        <h3>Luis Sergio</h3>
-        <p>"Eu de educou ia em certas agrada. Nao subsistem tenebroso patuscada prestaste separarem sem. Ha ao allegando incommodo recebendo. Hospedado necessito bracejara de ou desejaria furibundo da. Ao cada tudo sera de em. Es de tranquillo existencia em pe affirmares. Pes mas tendencia vol confessas emmudecer invocasse bom. Dentro tochas aba erguer berrou solida restar mal era paz."</p>
-      </article>
-      <article>
-        <h3>Luis Felipe</h3>
-        <p>"Explicar ha tu arrumava ja apparato heidisse resistir permitta. Inspirar sorrindo entregue hao encobria responda feminina tem. Mau fiz mazzantini temperadas inventario ate. Dar mudando immovel deu prompto pes. Sim pezo sao esta deus vivo anjo lago. Desvelos motivado as es cortante si. Nadaporque ma commissoes differenca tu pelintrice hauriremos. Obrigacao condemnem ou ii me es coracaoeu incutiram arrasoado indagaste."</p>
-      </article>
+      <div class="reviews__container">
+        <article class="review-card">
+          <h3>Luis Sergio</h3>
+          <p>"Eu de educou ia em certas agrada. Nao subsistem tenebroso patuscada prestaste separarem sem. Ha ao allegando incommodo recebendo. Hospedado necessito bracejara de ou desejaria furibundo da. Ao cada tudo sera de em. Es de tranquillo existencia em pe affirmares."</p>
+        </article>
+        <article class="review-card">
+          <h3>Luis Felipe</h3>
+          <p>"Explicar ha tu arrumava ja apparato heidisse resistir permitta. Inspirar sorrindo entregue hao encobria responda feminina tem. Mau fiz mazzantini temperadas inventario ate. Dar mudando immovel deu prompto pes. Sim pezo sao esta deus vivo anjo lago."</p>
+        </article>
+      </div>
     </section>
     <section>
       <h2>Quem é o professor?</h2>
@@ -105,16 +66,17 @@
     </section>
     <section>
       <h2>Deseja mais informações? Entre em contato conosco.</h2>
-      <form action="success.html" method="get">
-        <label for="input-name">Nome:</label><br>
-        <input type="text" name="name" id="input-name">
-        <br>
-        <label for="input-email">E-mail:</label><br>
-        <input type="email" name="email" id="input-email">
-        <br>
-        <label for="input-message">Mensagem:</label><br>
-        <textarea name="message" id="input-message" cols="40" rows="10"></textarea>
-        <br>
+      <form action="success.html" method="get" class="form">
+        <label for="input-name">Nome:</label>
+        <input type="text" name="name" id="input-name" class="form__field">
+        
+        <label for="input-email">E-mail:</label>
+        <input type="email" name="email" id="input-email" class="form__field">
+        
+        <label for="input-message">Mensagem:</label>
+        <textarea name="message" id="input-message" cols="40" rows="10" class="form__field"></textarea>
+
+        <span></span>
         <button type="submit">Enviar</button>
       </form>
     </section>
