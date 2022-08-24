@@ -1,15 +1,26 @@
+@import "variables.css";
+
 body {
   margin: 0;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white; 
 }
-    
+
 a {
   color: white;
+  text-decoration: none;
 }
 
 .header {
-  background-color: #2f4b68; 
+  background-color: var(--header-bg);
   color: white; 
   padding: 1em 1.5em;
+}
+
+.header a:hover {
+  text-decoration: underline;
 }
 
 .header__title {
@@ -64,11 +75,21 @@ a {
 }
 
 .footer {
-  background-color: #2f4b68; 
+  background-color: var(--header-bg);
   color: white; 
   padding: .1em 1em;
 }
 
 .copyright {
   font-size: .8em;
+}
+
+.to-top {
+  background-color: white;
+  color: #2f4b68;
+  padding: .5em;
+  border-radius: 10%;
+  position: fixed;
+  right: 5px;
+  bottom: 50px;
 }
