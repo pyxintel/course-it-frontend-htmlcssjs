@@ -25,9 +25,10 @@
    
 ## Aula 6
 
-1. Background image (CSS)
-2. Same page anchor (HTML)
-3. Positioning (CSS)
+1. State selector (CSS)
+2. Background image (CSS)
+3. Same page anchor (HTML)
+4. Positioning (CSS)
 
 ---
 
