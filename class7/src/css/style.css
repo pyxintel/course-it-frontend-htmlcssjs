@@ -1,0 +1,95 @@
+@import "variables.css";
+
+body {
+  margin: 0;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  background-color: var(--header-bg);
+  color: white; 
+  padding: 1em 1.5em;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header__title {
+  margin: 0; 
+  margin-bottom: .5em; 
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  display: inline;
+  margin-right: 1em;
+}
+
+.main {
+  max-width: 940px; 
+  margin: 0 auto 1em;
+  padding: 0 1em;
+}
+
+.courses__table {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reviews__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.review-card {
+  max-width: 400px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+}
+
+.form__field {
+  margin-bottom: .5em;
+}
+
+.footer {
+  background-color: var(--header-bg);
+  color: white; 
+  padding: .1em 1em;
+}
+
+.copyright {
+  font-size: .8em;
+}
+
+.to-top {
+  background-color: white;
+  color: #2f4b68;
+  padding: .5em;
+  border-radius: 10%;
+  position: fixed;
+  right: 5px;
+  bottom: 50px;
+}

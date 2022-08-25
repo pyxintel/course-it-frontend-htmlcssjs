@@ -23,12 +23,17 @@
 
 1. CSS external - <link\> element
    
-## Aula 6
+## Aula 6 - More CSS
 
 1. State selector (CSS)
 2. Background image (CSS)
 3. Same page anchor (HTML)
 4. Positioning (CSS)
+   
+## Aula 7 - Responsiveness
+
+1. Positioning (CSS)
+2. Responsiveness (CSS)
 
 ---
 
