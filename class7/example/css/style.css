@@ -6,6 +6,7 @@ body {
   background-position: center;
   background-size: cover;
   color: white; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -71,8 +72,8 @@ a {
   color: white;
   border: 0;
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 18px;
+  left: 18px;
 }
 
 .main {
@@ -138,6 +139,7 @@ a {
     top: 0;
     bottom: 0;
     left: -200px;
+    min-width: 200px;
     background-color: var(--bg-color);
     text-align: left;
     transition: left .3s ease-in-out;
