@@ -35,6 +35,10 @@
 1. Positioning (CSS)
 2. Responsiveness (CSS)
 
+## Aula 8 - JS
+
+1. JS internal - <script\> element
+
 ---
 
 ### Preparação do ambiente de trabalho local
