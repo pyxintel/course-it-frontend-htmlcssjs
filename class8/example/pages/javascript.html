@@ -57,7 +57,6 @@
 
     console.log(course);
     listAdults();
-    listUntilClassIsFull(4);
     console.log(msg); // Error: Uncaught ReferenceError: msg is not defined
   </script>
 
@@ -82,6 +81,7 @@
   <main class="main">
     <h3>Introdução so Javascript</h3>
     <p>Abra o console do navegador para ver o log da aula.</p>
+    <button onclick="listUntilClassIsFull(4)">Executar</button>
   </main>
   <footer class="footer">
     <p class="copyright">Pyxintel 2022 - © Todos os direitos reservados.</p>
