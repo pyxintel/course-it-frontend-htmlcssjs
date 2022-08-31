@@ -32,12 +32,15 @@
    
 ## Aula 7 - Responsiveness
 
-1. Positioning (CSS)
-2. Responsiveness (CSS)
+1. Responsive Web Design - RWD
+2. Positioning (CSS)
 
 ## Aula 8 - JS
 
 1. JS internal - <script\> element
+2. Primitive types, variables, constants
+3. Boolean algebra (intro)
+4. Execution flow control
 
 ---
 
