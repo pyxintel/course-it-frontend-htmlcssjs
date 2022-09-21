@@ -14,6 +14,16 @@ const msgs = [
   { name: 'Alice', email: 'alice@gmail.com', message: 'Nova mensagem de alice.' },
 ]
 
+const courses = [
+  { name: 'HTML', duration: 7 },
+  { name: 'CSS', duration: 15 },
+  { name: 'JS', duration: 20 },
+]
+
+app.get('/courses', (req, res) => {
+  res.json(courses)
+})
+
 app.get('/message', (req, res) => {
   res.json(msgs)
 })

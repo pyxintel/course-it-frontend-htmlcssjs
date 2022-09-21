@@ -40,7 +40,14 @@
 1. JS internal - <script\> element
 2. Primitive types, variables, constants
 3. Boolean algebra (intro)
-4. Execution flow control
+4. Flow control
+5. DOM Manipulation
+
+## Aula 9 - JS
+
+1. JS external
+2. Fetch API
+3. Promise
 
 ---
 
