@@ -10,10 +10,10 @@
     "url": "https://github.com/pyxintel/course-it-frontend-htmlcssjs"
   },
   "scripts": {
-    "start": "concurrently  \"node api/app.js\" \"http-server class9/src -p 3000\"",
+    "start": "concurrently  \"node api/app.js\" \"http-server class8/src -p 3000\"",
     "start:api": "node api/app.js",
-    "start:exe": "concurrently  \"node api/app.js\" \"http-server class9/example -p 3001\"",
-    "next:class": "git stash && git fetch && git checkout class10 && git stash pop && npm i"
+    "start:exe": "concurrently  \"node api/app.js\" \"http-server class8/example -p 3001\"",
+    "next:class": "git stash && git fetch && git checkout class9 && git stash pop && npm i"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
